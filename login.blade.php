@@ -46,7 +46,7 @@
                     <button
                         class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                         type="button">
-                        Sign up
+                        Login
                     </button>
                 </div>
             </form>
@@ -55,8 +55,8 @@
                     Or
                 </p>
                 <p class="mt-2">
-                    Have an account?
-                    <a class="text-blue-500" href="#">
+                    Dont have account?
+                    <a class="text-blue-500" href="register.blade.php">
                         Sign In
                     </a>
                 </p>

@@ -62,8 +62,8 @@
                 </p>
                 <p class="mt-2">
                     Have an account?
-                    <a class="text-blue-500" href="#">
-                        Sign In
+                    <a class="text-blue-500" href="login.blade.php">
+                        Login
                     </a>
                 </p>
             </div>

@@ -34,26 +34,23 @@
         <!-- Sidebar -->
         <div class="w-full md:w-64 bg-white shadow-md sidebar">
             <div class="flex items-center justify-center h-16 border-b">
-                <img alt="Logo of Jaya Badminton Hall, a stylized shuttlecock in blue and white colors"
-                    class="h-10 w-10 rounded-full" height="40"
-                    src="https://img.freepik.com/premium-vector/vector-flat-badminton-logo-design_1107171-444.jpg?w=360"
-                    width="45" />
+                <img alt="Logo" class="h-10 w-10 rounded-full" height="40" src="https://img.freepik.com/premium-vector/vector-flat-badminton-logo-design_1107171-444.jpg?w=360" width="45"/>
                 <span class="ml-2 text-lg font-semibold hidden md:block">Admin Jaya Badminton Hall</span>
             </div>
             <nav class="mt-10">
-                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="#">
+                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="dash_Admin.blade.php">
                     <i class="fas fa-tachometer-alt mr-3"></i>
                     <span>Dashboard</span>
                 </a>
-                <a class="flex items-center py-2 px-8 text-blue-700 hover:bg-gray-200" href="#">
+                <a class="flex items-center py-2 px-8 text-blue-700 hover:bg-gray-200" href="court.blade.php">
                     <i class="fas fa-table-tennis mr-3"></i>
                     <span>Court</span>
                 </a>
-                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="#">
+                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="booking_data.blade.php">
                     <i class="fas fa-list-alt mr-3"></i>
                     <span>Booking Data</span>
                 </a>
-                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="#">
+                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="schedule.blade.php">
                     <i class="fas fa-calendar-alt mr-3"></i>
                     <span>Schedule</span>
                 </a>
@@ -74,7 +71,7 @@
                         class="h-8 w-8 md:h-10 md:w-10 rounded-full" height="40"
                         src="https://storage.googleapis.com/a1aa/image/8bhRABXN6qfAH_O5DWhIrN9rgGhUj-t8JMTbbKIYhMc.jpg"
                         width="40" />
-                    <a class="ml-2 md:ml-4 text-gray-700 hover:text-gray-900" href="#">
+                    <a class="ml-2 md:ml-4 text-gray-700 hover:text-blue-900" href="login.blade.php">
                         <i class="fas fa-sign-out-alt"></i>
                     </a>
                 </div>
@@ -89,10 +86,10 @@
                             Here is a list of all COURT Data
                         </p>
                     </div>
-                    <button
-                        class="bg-blue-600 text-white text-xs font-semibold px-4 py-2 rounded shadow hover:bg-blue-700 focus:outline-none whitespace-nowrap">
+                    <a class="bg-blue-600 text-white text-xs font-semibold px-4 py-2 rounded shadow hover:bg-blue-700 focus:outline-none whitespace-nowrap inline-block text-center" href="add_court.blade.php">
                         Add Court Data
-                    </button>
+                    </a>
+
                 </div>
                 <div class="overflow-x-auto rounded-md shadow-sm">
                     <table class="w-full text-xs text-left border-collapse min-w-[700px] md:min-w-full">
@@ -194,25 +191,25 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="fixed inset-0 bg-gray-800 bg-opacity-75 z-50 hidden" role="dialog" aria-modal="true">
-        <div class="flex flex-col items-center justify-center h-full space-y-6" tabindex="-1">
-            <a class="flex items-center py-2 px-8 text-white hover:bg-gray-700 rounded" href="#">
+    <div id="mobile-menu" class="fixed inset-0 bg-gray-800 bg-opacity-75 z-50 hidden">
+        <div class="flex flex-col items-center justify-center h-full">
+            <a class="lex items-center py-2 px-8 text-white hover:bg-blue-200" href="dash_admin.blade.php">
                 <i class="fas fa-tachometer-alt mr-3"></i>
                 <span>Dashboard</span>
             </a>
-            <a class="flex items-center py-2 px-8 text-white hover:bg-gray-700 rounded" href="#">
+            <a class="flex items-center py-2 px-8 text-blue-700 hover:bg-blue-200" href="court.blade.php">
                 <i class="fas fa-table-tennis mr-3"></i>
                 <span>Court</span>
             </a>
-            <a class="flex items-center py-2 px-8 text-white hover:bg-gray-700 rounded" href="#">
+            <a class="flex items-center py-2 px-8 text-white hover:bg-blue-200" href="booking_data.blade.php">
                 <i class="fas fa-list-alt mr-3"></i>
                 <span>Booking Data</span>
             </a>
-            <a class="flex items-center py-2 px-8 text-white hover:bg-gray-700 rounded" href="#">
+            <a class="flex items-center py-2 px-8 text-white hover:bg-blue-200" href="schedule.blade.php">
                 <i class="fas fa-calendar-alt mr-3"></i>
                 <span>Schedule</span>
             </a>
-            <button id="close-menu" class="mt-4 text-white focus:outline-none" aria-label="Close menu">
+            <button id="close-menu" class="mt-4 text-white focus:outline-none">
                 <i class="fas fa-times text-2xl"></i>
             </button>
         </div>

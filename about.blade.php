@@ -20,14 +20,14 @@
             <span class="font-bold text-lg">JAYA BADMINTON HALL</span>
         </div>
         <div class="hidden md:flex space-x-6">
-            <a class="text-green-600 border-b-2 border-green-600" href="#">Home</a>
-            <a class="text-gray-600" href="#">About Us</a>
-            <a class="text-gray-600" href="#">Booking Now</a>
-            <a class="text-gray-600" href="#">Contact Us</a>
+            <a class="hover:text-green-600" href="home.blade.php">Home</a>
+            <a class="text-green-600 border-b-2 border-green-600" href="about.blade.php">About Us</a>
+            <a class="hover:text-green-600" href="booking.blade.php">Booking Now</a>
+            <a class="hover:text-green-600" href="contact.blade.php">Contact Us</a>
         </div>
         <div class="hidden md:flex space-x-4">
-            <a class="text-green-600" href="#"><i class="fab fa-facebook-f"></i></a>
-            <a class="text-green-600" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="hover:text-green-600" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="hover:text-green-600" href="#"><i class="fab fa-instagram"></i></a>
         </div>
         <div class="md:hidden">
             <button id="menu-button" class="text-green-600 focus:outline-none">
@@ -37,13 +37,13 @@
     </nav>
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="hidden md:hidden">
-        <a class="block px-4 py-2 text-green-600 border-b-2 border-green-600" href="#">Home</a>
-        <a class="block px-4 py-2 text-gray-600" href="#">About Us</a>
-        <a class="block px-4 py-2 text-gray-600" href="#">Booking Now</a>
-        <a class="block px-4 py-2 text-gray-600" href="#">Contact Us</a>
+        <a class="block px-4 py-2 hover:text-green-600" href="home.blade.php">Home</a>
+        <a class="block px-4 py-2 text-green-600 border-b-2 border-green-600" href="about.blade.php">About Us</a>
+        <a class="block px-4 py-2 hover:text-green-600" href="booking.blade.php">Booking Now</a>
+        <a class="block px-4 py-2 hover:text-green-600" href="contact.blade.php">Contact Us</a>
         <div class="flex justify-center space-x-4 py-2">
-            <a class="text-green-600" href="#"><i class="fab fa-facebook-f"></i></a>
-            <a class="text-green-600" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="hover:text-green-600" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="hover:text-green-600" href="#"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
     

@@ -20,8 +20,8 @@
         }
     </style>
 </head>
-<body class="bg-gray-100">
-    <div class="flex flex-col md:flex-row h-screen">
+<body class="bg-[#f9f9f9] text-[#1a1a1a]">
+    <div class="flex min-h-screen flex-col md:flex-row">
         <!-- Sidebar -->
         <div class="w-full md:w-64 bg-white shadow-md sidebar">
             <div class="flex items-center justify-center h-16 border-b">
@@ -29,19 +29,19 @@
                 <span class="ml-2 text-lg font-semibold hidden md:block">Admin Jaya Badminton Hall</span>
             </div>
             <nav class="mt-10">
-                <a class="flex items-center py-2 px-8 text-blue-700 hover:bg-gray-200" href="#">
+                <a class="flex items-center py-2 px-8 text-blue-700 hover:bg-gray-200" href="dash_Admin.blade.php">
                     <i class="fas fa-tachometer-alt mr-3"></i>
                     <span>Dashboard</span>
                 </a>
-                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="#">
+                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="court.blade.php">
                     <i class="fas fa-table-tennis mr-3"></i>
                     <span>Court</span>
                 </a>
-                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="#">
-                    <i class="fas fa-calendar-alt mr-3"></i>
+                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="booking_data.blade.php">
+                    <i class="fas fa-list-alt mr-3"></i>
                     <span>Booking Data</span>
                 </a>
-                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="#">
+                <a class="flex items-center py-2 px-8 text-gray-700 hover:bg-gray-200" href="schedule.blade.php">
                     <i class="fas fa-calendar-alt mr-3"></i>
                     <span>Schedule</span>
                 </a>
@@ -58,7 +58,7 @@
                 <div class="flex items-center ml-auto">
                     <span class="mr-2 md:mr-4 text-gray-700 whitespace-nowrap">Dewantara Bram</span>
                     <img alt="User Avatar" class="h-8 w-8 md:h-10 md:w-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/8bhRABXN6qfAH_O5DWhIrN9rgGhUj-t8JMTbbKIYhMc.jpg" width="40"/>
-                    <a class="ml-2 md:ml-4 text-gray-700 hover:text-gray-900" href="#">
+                    <a class="ml-2 md:ml-4 text-gray-700 hover:text-blue-900" href="login.blade.php">
                         <i class="fas fa-sign-out-alt"></i>
                     </a>
                 </div>
@@ -74,19 +74,19 @@
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="fixed inset-0 bg-gray-800 bg-opacity-75 z-50 hidden">
         <div class="flex flex-col items-center justify-center h-full">
-            <a class="flex items-center py-2 px-8 text-white hover:bg-gray-700" href="#">
+            <a class="flex items-center py-2 px-8 text-blue-700 hover:bg-blue-200" href="dash_admin.blade.php">
                 <i class="fas fa-tachometer-alt mr-3"></i>
                 <span>Dashboard</span>
             </a>
-            <a class="flex items-center py-2 px-8 text-white hover:bg-gray-700" href="#">
+            <a class="flex items-center py-2 px-8 text-white hover:bg-blue-200" href="court.blade.php">
                 <i class="fas fa-table-tennis mr-3"></i>
                 <span>Court</span>
             </a>
-            <a class="flex items-center py-2 px-8 text-white hover:bg-gray-700" href="#">
+            <a class="flex items-center py-2 px-8 text-white hover:bg-blue-200" href="booking_data.blade.php">
                 <i class="fas fa-list-alt mr-3"></i>
                 <span>Booking Data</span>
             </a>
-            <a class="flex items-center py-2 px-8 text-white hover:bg-gray-700" href="#">
+            <a class="flex items-center py-2 px-8 text-white hover:bg-blue-200" href="schedule.blade.php">
                 <i class="fas fa-calendar-alt mr-3"></i>
                 <span>Schedule</span>
             </a>

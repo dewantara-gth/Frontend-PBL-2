@@ -36,14 +36,14 @@
             <span class="font-bold text-lg">JAYA BADMINTON HALL</span>
         </div>
         <div class="hidden md:flex space-x-6">
-            <a class="text-green-600 border-b-2 border-green-600" href="#">Home</a>
-            <a class="text-gray-600" href="#">About Us</a>
-            <a class="text-gray-600" href="#">Booking Now</a>
-            <a class="text-gray-600" href="#">Contact Us</a>
+            <a class="text-green-600 border-b-2 border-green-600" href="home.blade.php">Home</a>
+            <a class="hover:text-green-600" href="about.blade.php">About Us</a>
+            <a class="hover:text-green-600" href="booking.blade.php">Booking Now</a>
+            <a class="hover:text-green-600" href="contact.blade.php">Contact Us</a>
         </div>
         <div class="hidden md:flex space-x-4">
-            <a class="text-green-600" href="#"><i class="fab fa-facebook-f"></i></a>
-            <a class="text-green-600" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="hover:text-green-600" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="hover:text-green-600" href="#"><i class="fab fa-instagram"></i></a>
         </div>
         <div class="md:hidden">
             <button id="menu-button" class="text-green-600 focus:outline-none">
@@ -53,13 +53,13 @@
     </nav>
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="hidden md:hidden">
-        <a class="block px-4 py-2 text-green-600 border-b-2 border-green-600" href="#">Home</a>
-        <a class="block px-4 py-2 text-gray-600" href="#">About Us</a>
-        <a class="block px-4 py-2 text-gray-600" href="#">Booking Now</a>
-        <a class="block px-4 py-2 text-gray-600" href="#">Contact Us</a>
+        <a class="block px-4 py-2 text-green-600 border-b-2 border-green-600" href="home.blade.php">Home</a>
+        <a class="block px-4 py-2 hover:text-green-600" href="about.blade.php">About Us</a>
+        <a class="block px-4 py-2 hover:text-green-600" href="booking.blade.php">Booking Now</a>
+        <a class="block px-4 py-2 hover:text-green-600" href="contact.blade.php">Contact Us</a>
         <div class="flex justify-center space-x-4 py-2">
-            <a class="text-green-600" href="#"><i class="fab fa-facebook-f"></i></a>
-            <a class="text-green-600" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="hover:text-green-600" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="hover:text-green-600" href="#"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
     <!-- Hero Section -->
@@ -67,7 +67,7 @@
         <div class="max-w-lg">
             <h1 class="text-5xl font-bold text-black">Your Game Starts with the Right Court.</h1>
             <p class="text-xl text-gray-600 mt-4">Ready for new journy!</p>
-            <button class="mt-6 px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded">Book Now</button>
+            <a class="mt-6 px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded inline-block text-center" href="booking.blade.php">Book Now</a>
         </div>
         <img alt="Indoor Badminton Court" class="w-full md:w-1/2 h-auto rounded-lg shadow-lg mt-8 md:mt-0" height="600"
             src="https://storage.googleapis.com/a1aa/image/UTMepjVB4_4XMaDy6UcaMYHHew1EGzLOiNEYc-1PjmM.jpg"
@@ -115,6 +115,8 @@
                 menu.classList.add('hidden');
             }
         });
+
+        
     </script>
 </body>
 
